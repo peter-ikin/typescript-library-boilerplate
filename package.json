@@ -4,7 +4,8 @@
   "description": "boilerplate for typescript library development, includes linting, testing, coverage etc.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "test": ""
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,9 @@
   },
   "homepage": "https://github.com/peter-ikin/typescript-library-boilerplate#readme",
   "devDependencies": {
+    "@types/jasmine": "^2.5.41",
+    "@types/node": "^7.0.4",
+    "jasmine": "^2.5.3",
     "typescript": "^2.1.5"
   }
 }
