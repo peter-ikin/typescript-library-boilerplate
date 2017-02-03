@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "test": ""
+    "test": "jasmine"
   },
   "repository": {
     "type": "git",
