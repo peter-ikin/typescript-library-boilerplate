@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "test": "node ./config/test-runner.js"
+    "test": "node ./config/test-runner.js",
+    "coverage": "istanbul cover ./config/test-runner.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
   "devDependencies": {
     "@types/jasmine": "^2.5.41",
     "@types/node": "^7.0.4",
+    "istanbul": "^0.4.5",
     "jasmine": "^2.5.3",
     "jasmine-console-reporter": "^1.2.7",
     "typescript": "^2.1.5"
