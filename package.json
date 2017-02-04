@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "test": "jasmine"
+    "test": "jasmine JASMINE_CONFIG_PATH=./config/jasmine.json"
   },
   "repository": {
     "type": "git",
