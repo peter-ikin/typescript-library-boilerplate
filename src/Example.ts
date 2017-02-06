@@ -1,7 +1,7 @@
 // Example file
 
 export class Example {
-    name: string;
+    name: string = "bob";
 
     constructor(name: string) {
         this.name = name;

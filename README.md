@@ -6,3 +6,4 @@ Boilerplate for typescript library development
 + To build 'npm run build'
 + To run tests 'npm run test'
 + To run code coverage 'npm run coverage'
++ To run tslint 'npm run lint'

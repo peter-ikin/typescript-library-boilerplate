@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "test": "node ./config/test-runner.js",
-    "coverage": "istanbul cover ./config/test-runner.js"
+    "coverage": "istanbul cover ./config/test-runner.js",
+    "lint": "tslint --force -c ./config/tslint.json 'src/**/*.ts'"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
     "istanbul": "^0.4.5",
     "jasmine": "^2.5.3",
     "jasmine-console-reporter": "^1.2.7",
+    "tslint": "^4.4.2",
     "typescript": "^2.1.5"
   }
 }
