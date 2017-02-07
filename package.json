@@ -17,7 +17,7 @@
     "typescript",
     "boilerplate"
   ],
-  "author": "Peter Ikin",
+  "author": "Peter Ikin<peter.ikin@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/peter-ikin/typescript-library-boilerplate/issues"
