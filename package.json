@@ -1,6 +1,6 @@
 {
   "name": "typescript-library-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "boilerplate for typescript library development, includes linting, testing, coverage etc.",
   "main": "index.js",
   "scripts": {
