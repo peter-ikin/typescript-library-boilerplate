@@ -1,6 +1,6 @@
 {
   "name": "typescript-library-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "boilerplate for typescript library development, includes linting, testing, coverage etc.",
   "main": "index.js",
   "scripts": {
@@ -24,12 +24,12 @@
   },
   "homepage": "https://github.com/peter-ikin/typescript-library-boilerplate#readme",
   "devDependencies": {
-    "@types/jasmine": "^2.5.41",
-    "@types/node": "^7.0.4",
+    "@types/jasmine": "^2.8.5",
+    "@types/node": "^9.3.0",
     "istanbul": "^0.4.5",
-    "jasmine": "^2.5.3",
-    "jasmine-console-reporter": "^1.2.7",
-    "tslint": "^4.4.2",
-    "typescript": "^2.1.5"
+    "jasmine": "^2.9.0",
+    "jasmine-console-reporter": "^2.0.1",
+    "tslint": "^5.9.1",
+    "typescript": "^2.6.2"
   }
 }
